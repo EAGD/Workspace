@@ -1,7 +1,7 @@
 #Use -> docker build . 
 
 #Image
-FROM jenkins
+FROM jenkins/jenkins
 #Port of main interface
 EXPOSE 8080:8080
 #Agent port
