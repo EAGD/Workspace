@@ -2,7 +2,7 @@
 
 pipeline {
     agent{
-        label: 'principal'
+        label 'principal'
     }
     stages{
         stage("test"){
