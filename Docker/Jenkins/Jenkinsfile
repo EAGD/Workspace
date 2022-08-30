@@ -1,13 +1,11 @@
 #!groovy
 
 pipeline {
-    agent{
-        label 'principal'
-    }
-
     stages{
         stage("test"){
-            echo "hello world"
+            steps{
+                echo "hello world"
+            }
         }
     }
 }
