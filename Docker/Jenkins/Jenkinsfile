@@ -1,6 +1,9 @@
 #!groovy
 
 pipeline {
+    agent{
+        label: 'principal'
+    }
     stages{
         stage("test"){
             steps{
