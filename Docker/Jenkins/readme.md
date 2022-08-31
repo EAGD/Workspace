@@ -8,7 +8,7 @@
 -docker stop <containerId> <br>
 -docker rm <containerId> <br>
 
-#Git commands in case of
+#Git commands in case of <br>
 -git clone https://www.github.com/tu-repositorio-aqui <br>
 -git config --global user.email "tu-correo" <br>
 -git config --global user.name "tu-nombre" <br>
