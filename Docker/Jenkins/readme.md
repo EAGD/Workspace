@@ -17,7 +17,7 @@
 - git push origin main <br>
 
 
-# Guide to run this project
+# Guide to run and install this project
 
 - start entering inside the folder or where your dockerfile is, then run the first command <br>
     "docker build -t jenkins . <br>
