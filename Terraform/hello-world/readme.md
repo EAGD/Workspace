@@ -7,7 +7,7 @@
 - Change the "kind-of-file" for "local_file" because we are work in our local and change the name for example or test, you choose <br>
 - Inside the resource that you are creating, specify what will do, we can include a filename called "example.txt" and also include the unique and one "Hello World" inside the file <br>
 - We will have something like this <br>
-    resource "kind-of-file" "name" { <br> filename = "example.txt" <br> content = "Hello World" <br> } <br>
+    resource "local_file" "example" { <br> filename = "example.txt" <br> content = "Hello World" <br> } <br>
 - After save your file, we can start, run this commands in order and see the terminal <br>
 - terraform version <br>
 - terraform init <br>
