@@ -31,4 +31,4 @@
 - Once you are in the initial or root dashboard of jenkins, look at the left menu and select the credentials option, select the jenkins credentials, then the global credentials and fill the information with your own github account to create specific credentials for your account and own repositories <br>
 
 - Congrats, you have a functional CICD tool working now with credentials to interact with your own repository
-- PD: make sure your repository is public and avaible
+- PD: make sure your repository is public and available
