@@ -19,8 +19,8 @@
 
 # Guide to run and install this project
 
-- start entering inside the folder or where your dockerfile is, then run the first command <br>
-    "docker build -t jenkins . <br>
+- Clonea this repo and enter to the folder where your dockerfile is, then run the first command <br>
+    "docker build -t jenkins ." yes, has a point as last character, include it!<br>
 - wait for the download of Jenkins image and the run the next command <br>
     "docker run -p 8080:8080 -p 50000:50000 jenkins <br>
 - why two ports? because one is for the UI of jenkins (8080) and the 2nd is for the agent to execute the pipelines (50000) <br>
