@@ -27,4 +27,8 @@
 - once you execute the command, logs will appear in the console, then you have to open your browser and write <br>
     "localhost:8080/" <br>
 - Jenkins will start and you have to write the admin password that would be available in the logs of your terminal, after that, please select the standard plugins and wait for the installation, if a plugin fail, wait for the others and re install the failed plugins <br>
-- 
+- After the installation is completed, you can set a different user from the admin profile, if you don't want to create a new one, skip and click next as admin <br>
+- Once you are in the initial or root dashboard of jenkins, look at the left menu and select the credentials option, select the jenkins credentials, then the global credentials and fill the information with your own github account to create specific credentials for your account and own repositories <br>
+
+- Congrats, you have a functional CICD tool working now with credentials to interact with your own repository
+- PD: make sure your repository is public and avaible
