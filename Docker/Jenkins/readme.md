@@ -1,14 +1,14 @@
-# Docker commands to run <br>
+# Docker commands to run
 - docker build -t <containerName> . <br>
 - docker run -p 8080:8080 -p 50000:50000 <containerName> <br>
 
-# Docker commands in case of
+# Docker commands
 - docker -v <br>
 - docker ps -a <br>
 - docker stop <containerId> <br>
 - docker rm <containerId> <br>
 
-# Git commands in case of <br>
+# Git commands
 - git clone https://www.github.com/tu-repositorio-aqui <br>
 - git config --global user.email "tu-correo" <br>
 - git config --global user.name "tu-nombre" <br>
