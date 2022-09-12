@@ -11,7 +11,7 @@ pipeline {
         }
         stage("nombre"){
             steps{
-                echo '${name}'
+                echo ${name}
             }
         }
     }
