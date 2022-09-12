@@ -9,5 +9,10 @@ pipeline {
                 echo "hello world"
             }
         }
+        stage("nombre"){
+            steps{
+                echo ${name}
+            }
+        }
     }
 }
