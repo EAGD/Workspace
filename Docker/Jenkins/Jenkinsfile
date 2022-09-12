@@ -1,5 +1,9 @@
 #!groovy
 
+def talent(){
+    echo "talent factory"
+}
+
 pipeline {
     agent any
     
@@ -12,6 +16,11 @@ pipeline {
         stage("nombre"){
             steps{
                 echo "${name}"
+            }
+        }
+        stage("talent"){
+            steps{
+                talent()
             }
         }
     }
