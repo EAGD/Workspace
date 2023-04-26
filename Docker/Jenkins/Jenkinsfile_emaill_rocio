@@ -1,0 +1,15 @@
+#!groovy
+
+pipeline {
+    agent any
+    
+    stages{
+        stage("email"){
+            steps{
+                emailtext to: 'roc.contrras@profesor.duoc.cl'
+                subject: 'Recuerdo de mi primer workshop de Docker y Jenkins'
+                body: 'Enviando este correo al profesorado y alumnado de DUOC Sede Antonio Varas'
+            }
+        }
+    }
+}
