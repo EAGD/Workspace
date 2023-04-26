@@ -10,7 +10,7 @@ pipeline {
     stages{
         stage("Function"){
             steps{
-                function("${nombre}","${institucion}")
+                function()
             }
         }
     }
