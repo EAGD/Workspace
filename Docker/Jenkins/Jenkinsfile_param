@@ -1,12 +1,16 @@
 #!groovy
 
+def function(){
+    echo "Hola me llamo ${nombre} y pertenezco al ${institucion} de la sede Antonio Varas"
+}
+
 pipeline {
     agent any
     
     stages{
-        stage("Parameter Test"){
+        stage("Function"){
             steps{
-                echo "Hola soy ${nombre} y estoy parametrizando mi nombre con Jenkins"
+                function()
             }
         }
     }
