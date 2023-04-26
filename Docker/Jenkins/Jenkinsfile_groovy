@@ -2,6 +2,7 @@
 
 def function(n1,n2){
     def suma=0;
+    static int parseInt(n1,n2);
     suma = n1 + n2;
     echo suma
 }
