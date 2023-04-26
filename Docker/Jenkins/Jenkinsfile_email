@@ -6,8 +6,8 @@ pipeline {
     stages{
         stage("email"){
             steps{
-                emailtext to: 'esteban.eagd@gmail.com;bastianmaureira.c@gmail.com'
-                subject: 'Recuerdo de mi primer workshop de Docker y Jenkins'
+                emailtext to: 'esteban.eagd@gmail.com;bastianmaureira.c@gmail.com',
+                subject: 'Recuerdo de mi primer workshop de Docker y Jenkins',
                 body: 'Enviando este correo al profesorado y alumnado de DUOC Sede Antonio Varas'
             }
         }
