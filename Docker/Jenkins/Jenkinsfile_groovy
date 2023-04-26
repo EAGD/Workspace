@@ -1,0 +1,19 @@
+#!groovy
+
+def function(n1,n2){
+    def suma=0;
+    suma = n1 + n2;
+    return suma;
+}
+
+pipeline {
+    agent any
+    
+    stages{
+        stage("Function"){
+            steps{
+                function(${num1},${num2})
+            }
+        }
+    }
+}

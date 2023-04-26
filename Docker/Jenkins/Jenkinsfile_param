@@ -1,0 +1,13 @@
+#!groovy
+
+pipeline {
+    agent any
+    
+    stages{
+        stage("Parameter Test"){
+            steps{
+                echo "Hola soy ${nombre} y estoy parametrizando mi nombre con Jenkins"
+            }
+        }
+    }
+}
