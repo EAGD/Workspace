@@ -3,7 +3,7 @@
 def function(n1,n2){
     def suma=0;
     suma = n1 + n2;
-    return suma;
+    echo suma
 }
 
 pipeline {
@@ -13,6 +13,7 @@ pipeline {
         stage("Function"){
             steps{
                 function("${num1}","${num2}")
+
             }
         }
     }
