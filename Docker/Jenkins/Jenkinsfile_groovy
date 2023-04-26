@@ -1,11 +1,12 @@
 #!groovy
 
-def int num1_ = parseInt("${num1}")
-def int num2_ = parseInt("${num2}")
+
 
 def function(n1,n2){
+    def int num1_ = parseInt(n1)
+    def int num2_ = parseInt(n2)
     def suma=0;
-    suma = n1 + n2;
+    suma = num1_ + num2_;
     echo suma
 }
 
@@ -15,7 +16,7 @@ pipeline {
     stages{
         stage("Function"){
             steps{
-                function("${num1_}","${num2_}")
+                function("${num1}","${num2}")
             }
         }
     }
